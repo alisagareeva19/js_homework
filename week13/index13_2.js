@@ -1,8 +1,3 @@
-// function Enter() {
-//     let x = prompt('Введите первое число:', '');
-//     let y = prompt('Введите второе число:', '');
-// }
-
 function calcSum() {
     let x = prompt('Введите первое слагаемое:', '');
     let y = prompt('Введите второе слагаемое:', '');
