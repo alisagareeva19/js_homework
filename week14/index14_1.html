@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="assets/styles/style14_1.css">
+</head>
+
+<body>
+    <form name="calcform" action="#" method="post" class="calc">
+
+        <div>
+            <label for="num">Введите числа:</label>
+            <p>
+                <input type="text" id="num1" name="num" placeholder="..."> и
+                <input type="text" id="num2" name="num" placeholder="...">
+            </p>
+        </div>
+    </form>
+
+    <div class="calc">
+        <button class="calc__btn" onClick=calcSum()>+</button>
+        <button class="calc__btn" onClick=calcSub()>-</button>
+        <button class="calc__btn" onClick=calcMult()>*</button>
+        <button class="calc__btn" onClick=calcDiv()>/</button>
+    </div>
+
+    <form action="#" class="calc">
+        = <input type="text" id="otvet" name="otvet" placeholder="Ответ">
+    </form>
+
+    <script src="index14_1.js"></script>
+</body>
+
+</html>
