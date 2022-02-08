@@ -1,0 +1,15 @@
+.calc {
+    text-align: center;
+}
+
+.calc__btn {
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 5rem;
+    font-size: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
+    margin: 2rem;
+}
