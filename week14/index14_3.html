@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер</title>
+    <link rel="stylesheet" href="assets/styles/style14_3.css">
+</head>
+
+<body>
+    <div class="container">
+        <button id="left" onclick="Back()">&lt;&lt;&lt;</button>
+        <img src="https://www.fsnovosti.ru/wp-content/uploads/2020/12/diez-cambios-en-la-educaci-n-que-nuestros-hijos-necesitan-y-merecen.jpg"
+            alt="" id="img">
+        <button id="right" onclick="Next()">&gt;&gt;&gt;</button>
+    </div>
+    <script>
+        let num = 0;
+        let img = document.getElementById('img');
+        let imgs = new Array(
+            "https://www.fsnovosti.ru/wp-content/uploads/2020/12/diez-cambios-en-la-educaci-n-que-nuestros-hijos-necesitan-y-merecen.jpg",
+            "https://buzuluk.iq-study.ru/wp-content/uploads/sites/4/2019/12/1446227099_blog4-1024x682.jpg",
+            "https://i.obozrevatel.com/gallery/2019/1/15/cv.jpg");
+
+        function Next() {
+            num++;
+            img.src = imgs[num];
+        }
+
+        function Back() {
+            num--;
+            img.src = imgs[num];
+        }
+    </script>
+</body>
+
+</html>

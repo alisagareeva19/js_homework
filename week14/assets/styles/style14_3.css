@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+img {
+    width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 5rem;
+    font-size: 2rem;
+    margin: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(0 0 0 / 30%);
+}
+
+button:active {
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
+}
